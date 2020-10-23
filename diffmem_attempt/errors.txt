@@ -1,0 +1,90 @@
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/random:1637:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cmath:317:9: error: 
+      no member named 'signbit' in the global namespace
+using ::signbit;
+      ~~^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cmath:318:9: error: 
+      no member named 'fpclassify' in the global namespace
+using ::fpclassify;
+      ~~^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cmath:319:9: error: 
+      no member named 'isfinite' in the global namespace; did you mean 'finite'?
+using ::isfinite;
+      ~~^
+/usr/local/include/math.h:749:12: note: 'finite' declared here
+extern int finite(double)
+           ^
+In file included from /Users/vladgorelov/OpenSource_PKPD_tools_Research/diffmem_attempt/diffmem/src/cbrng.cpp:33:
+In file included from /Users/vladgorelov/OpenSource_PKPD_tools_Research/diffmem_attempt/diffmem/include/cbrng.hpp:36:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/random:1637:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cmath:320:9: error: 
+      no member named 'isinf' in the global namespace
+using ::isinf;
+      ~~^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cmath:321:9: error: 
+      no member named 'isnan' in the global namespace
+using ::isnan;
+      ~~^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cmath:322:9: error: 
+      no member named 'isnormal' in the global namespace
+using ::isnormal;
+      ~~^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cmath:323:9: error: 
+      no member named 'isgreater' in the global namespace
+using ::isgreater;
+      ~~^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cmath:324:9: error: 
+      no member named 'isgreaterequal' in the global namespace
+using ::isgreaterequal;
+      ~~^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cmath:325:9: error: 
+      no member named 'isless' in the global namespace
+using ::isless;
+      ~~^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cmath:326:9: error: 
+      no member named 'islessequal' in the global namespace
+using ::islessequal;
+      ~~^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cmath:327:9: error: 
+      no member named 'islessgreater' in the global namespace
+using ::islessgreater;
+      ~~^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cmath:328:9: error: 
+      no member named 'isunordered' in the global namespace
+using ::isunordered;
+      ~~^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cmath:329:9: error: 
+      no member named 'isunordered' in the global namespace
+using ::isunordered;
+      ~~^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cmath:335:9: error: 
+      no member named 'abs' in the global namespace; did you mean 'fabs'?
+using ::abs;
+      ~~^
+/usr/local/include/math.h:417:15: note: 'fabs' declared here
+extern double fabs(double);
+              ^
+In file included from /Users/vladgorelov/OpenSource_PKPD_tools_Research/diffmem_attempt/diffmem/src/cbrng.cpp:33:
+In file included from /Users/vladgorelov/OpenSource_PKPD_tools_Research/diffmem_attempt/diffmem/include/cbrng.hpp:36:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/random:1637:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cmath:640:26: error: 
+      no template named 'numeric_limits'
+    bool _FloatBigger = (numeric_limits<_FloatT>::digits > numeric_limit...
+                         ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cmath:640:60: error: 
+      no template named 'numeric_limits'
+    bool _FloatBigger = (numeric_limits<_FloatT>::digits > numeric_limit...
+                                                           ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cmath:641:18: error: 
+      no template named 'numeric_limits'
+    int _Bits = (numeric_limits<_IntT>::digits - numeric_limits<_FloatT>...
+                 ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cmath:641:50: error: 
+      no template named 'numeric_limits'
+    int _Bits = (numeric_limits<_IntT>::digits - numeric_limits<_FloatT>...
+                                                 ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cmath:646:17: error: 
+      no template named 'numeric_limits'
+  static_assert(numeric_limits<_FloatT>::radix == 2, "FloatT has incorre...
+                ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
