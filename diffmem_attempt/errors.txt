@@ -88,3 +88,9 @@ In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/Xcod
   static_assert(numeric_limits<_FloatT>::radix == 2, "FloatT has incorre...
                 ^
 fatal error: too many errors emitted, stopping now [-ferror-limit=]
+
+
+####################
+Maybe helpful
+
+https://stackoverflow.com/questions/58628377/catalina-c-using-cmath-headers-yield-error-no-member-named-signbit-in-th
