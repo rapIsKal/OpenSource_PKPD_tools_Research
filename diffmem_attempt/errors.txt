@@ -94,3 +94,26 @@ fatal error: too many errors emitted, stopping now [-ferror-limit=]
 Maybe helpful
 
 https://stackoverflow.com/questions/58628377/catalina-c-using-cmath-headers-yield-error-no-member-named-signbit-in-th
+
+Was helpful advice 2:
+
+#######################
+The fix:
+
+If we can alter the search order of #include<...> to search /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1 at first, it can be fixed.
+
+Using #include</Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/math.h> instead of <math.h> in /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/cmath
+
+#######################
+
+Next problem:
+/Users/vladgorelov/OpenSource_PKPD_tools_Research/diffmem_attempt/diffmem/include/Exception.hpp:37:10: fatal error: 
+      'fmt/string.h' file not found
+#include <fmt/string.h>
+
+Acc to API 
+https://fmt.dev/latest/api.html
+
+There is no fmt/string.h. Investigating
+
+Problem is that many things changed in fmt lib since 2018, I suggest to update this project acc to up-2-date fmt or install 4.1.0 fmt instead
