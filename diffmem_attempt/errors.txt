@@ -117,3 +117,10 @@ https://fmt.dev/latest/api.html
 There is no fmt/string.h. Investigating
 
 Problem is that many things changed in fmt lib since 2018, I suggest to update this project acc to up-2-date fmt or install 4.1.0 fmt instead
+
+########################
+
+Next : 
+Affinity.* won't compile
+
+cpu_set_t is a core affinity setting thing that is linux only, not on macOS. This project relies on the IO of the rpi so I doubt you'll be able to get it working on any apple hardware.

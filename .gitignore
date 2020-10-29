@@ -1,2 +1,6 @@
 .idea/
 .DS_Store
+diffmem_attempt/diffmem/
+diffmem_attempt/fmt/
+testing_diffmem/
+diffmem_attempt/Dockerfile
