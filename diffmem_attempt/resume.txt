@@ -1,0 +1,20 @@
+===============================WARNING!==============================================
+1. project is not building upon Mac OS bacause of src defect
+2. only one successful build represented here is for ubuntu 18.04. Didn't manage to build upon 16.04 but don't have proof that's impossible.
+If you want to be brave and discover - try it yourself
+3. Example represented here is theo.saemix data from R Saemix library
+4. Work is taking very long to converge
+==============SAEN took 421.4109547138214==============
+Don't know if it's not good example but execution time is very long
+Disadvantages of the project
+1. No support
+2. No documentation
+3. You have need to write new models in cpp
+4. No abuility to build in for MacOs
+Conclusion:
+We shouldn't proceed with it
+
+Benefits:
+1. We can grab saem and implement it by our own somehow
+
+
